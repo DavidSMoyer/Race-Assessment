@@ -1,3 +1,4 @@
+
 int sharkY = 0; // The Y position of the animals.
 int dolphinY = 0;
 int whaleY = 0;
@@ -39,13 +40,13 @@ void draw() { // Every frame...
     textSize(50);
     fill(255);
     text("The shark has gotten the fish!",400,400);
-} else if (dolphinY > 800) { // Detects if the dolphin has won.
+  } else if (dolphinY > 800) { // Detects if the dolphin has won.
     win = true;
     textAlign(CENTER);
     textSize(50);
     fill(255);
     text("The dolphin has gotten the fish!",400,400);
-} else if (whaleY > 800) { // Detects if the whale has won.
+  } else if (whaleY > 800) { // Detects if the whale has won.
     win = true;
     textAlign(CENTER);
     textSize(50);
